@@ -840,7 +840,7 @@ html::-webkit-scrollbar {
     .side-bar-area {
         display: block;
         margin-left: -750px;
-        transition: 1s;
+        transition: 0.6s;
     }
     
 

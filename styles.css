@@ -751,7 +751,7 @@ html::-webkit-scrollbar {
         background-color: rgba(0, 0, 0, 0.05);
     }
 
-    .nav-side-area {
+    .nav-btn-area {
         margin-left: -23px;
         position: absolute;
         height: 35px;
@@ -839,7 +839,10 @@ html::-webkit-scrollbar {
 
     .side-bar-area {
         display: block;
+        margin-left: -750px;
+        transition: 1s;
     }
+    
 
     .side-bar-content {
         position: absolute;
@@ -855,13 +858,12 @@ html::-webkit-scrollbar {
         height: 100vh;
         width: 30vw;
         z-index: 2;
-        top: 0;
-        right: 0;
+        margin-left: 70vw;
         cursor: pointer;
     }
 
     .side-bar-content ul {
-        margin-top: 80px;
+        margin-top: 60px;
     }
 
     .side-bar-content ul li a{
@@ -1069,6 +1071,7 @@ html::-webkit-scrollbar {
     }
 
     .shorts-m img {
+        object-fit: cover;
         width: 145px;
         height: 250px;
         border: 0px solid;
